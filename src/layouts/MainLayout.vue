@@ -29,23 +29,23 @@
 
         <div class="q-gutter-sm row items-center no-wrap">
           <q-btn round dense flat color="grey-8" icon="video_call" v-if="$q.screen.gt.sm">
-            <q-tooltip>Create a video or post</q-tooltip>
+            <q-tooltip>Create</q-tooltip>
           </q-btn>
           <q-btn round dense flat color="grey-8" icon="apps" v-if="$q.screen.gt.sm">
-            <q-tooltip>Apps</q-tooltip>
+            <q-tooltip>Youtube apps</q-tooltip>
           </q-btn>
-          <q-btn round dense flat color="grey-8" icon="message" v-if="$q.screen.gt.sm">
-            <q-tooltip>Messages</q-tooltip>
-          </q-btn>
+<!--          <q-btn round dense flat color="grey-8" icon="message" v-if="$q.screen.gt.sm">-->
+<!--            <q-tooltip>Messages</q-tooltip>-->
+<!--          </q-btn>-->
           <q-btn round dense flat color="grey-8" icon="notifications">
             <q-badge color="red" text-color="white" floating>
-              2
+              9+
             </q-badge>
             <q-tooltip>Notifications</q-tooltip>
           </q-btn>
           <q-btn round flat>
             <q-avatar size="26px">
-              <img src="https://cdn.quasar.dev/img/boy-avatar.png">
+              <img src="https://yt3.ggpht.com/m2qtytdTlMWvG15YTsT5zrJMvfqm46r7ZO_vOZz03BxhkuJNZv7jCcSP3E20Nbt0oMLmoUoKH-I=s88-c-k-c0x00ffffff-no-rj-mo" alt="" />
             </q-avatar>
             <q-tooltip>Account</q-tooltip>
           </q-btn>
